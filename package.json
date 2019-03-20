@@ -2,7 +2,7 @@
   "name": "calendar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bradshader.github.io/calendar",
+  "homepage": "https://bradshader.github.io/calendar/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
