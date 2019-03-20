@@ -1,0 +1,98 @@
+body {
+    background: #eeeeee;
+
+    .App {
+        background: white;
+        padding: 0 0 16px;
+        width: 500px;
+        border-radius: 5px;
+        margin: 32px auto;
+        overflow: hidden;
+        box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.25);
+
+        h1 {
+            background: #4286f4;
+            color: white;
+            margin: 0 0 16px;
+            padding: 16px;
+            font-weight: 100;
+        }
+
+        h2 {
+            font-weight: 100;
+            border-bottom: 1px solid black;
+        }
+
+        form {
+            .starting, .ending {
+                width: 40%;
+                float: left;
+            }
+            label {
+                font-weight: 100;
+                margin-bottom: 4px;
+                display: block;
+            }
+            input[type="text"] {
+                border-radius: 5px;
+                outline: none;
+                border: 1px solid rgba(0,0,0,0.25);
+                padding: 8px;
+                font-size: 16px;
+                width: 160px;
+            }
+            .button-container {
+                width: 20%;
+                float: left;
+
+                input[type="submit"] {
+                    background: #4286f4;
+                    color: white;
+                    border: none;
+                    padding: 10px 16px 11px;
+                    border-radius: 5px;
+                    margin: 25px auto 0;
+                }
+            }
+            
+        }
+
+        .SelectDates {
+            padding: 0 16px;
+            overflow: auto;
+        }
+
+        .result {
+            padding: 0 16px
+        }
+        .days-of-week h3 {
+            display: inline-block;
+            width: 14.2857%;
+            font-weight: 100;
+            margin: 0;
+        }
+
+        .week {
+            display: block;
+            overflow: hidden;
+            line-height:0;
+
+            &:last-of-type {
+                border-bottom: 1px solid rgba(0,0,0,0.15);;
+            }
+
+            .day {
+                width: 14.2857%;
+                padding-top: 14.2857%;
+                display: inline-block;
+                position: relative;
+                box-shadow: 1px 5px 0px inset rgba(0,0,0,0.15);
+                box-sizing: border-box;
+
+                &:last-of-type {
+                    border-right: 1px solid rgba(0,0,0,0.15);;
+                }
+            }
+        }
+    }
+}
